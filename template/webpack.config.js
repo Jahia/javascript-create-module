@@ -6,7 +6,7 @@ const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
-const deps = require('./package.json').dependencies;
+const deps = require('./package.json').devDependencies;
 
 // Read all files in the client components directory in order to expose them with webpack module federation more easily
 // Those components are exposed in order to be hydrate/rendered client side
