@@ -79,7 +79,7 @@ describe('npx @jahia/create-module', () => {
         console.log(execSync('yarn build').toString());
 
         // Make sure the tgz file is created in the dist/ folder
-        const tgzFilePath = path.join(projectPath, 'dist', `${projectName}-v0.1.0-SNAPSHOT.tgz`);
+        const tgzFilePath = path.join(projectPath, 'dist', 'package.tgz');
         expect(fs.existsSync(tgzFilePath)).toBe(true);
 
         // Check the contents of the tgz file
