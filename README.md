@@ -1,6 +1,6 @@
 # Javascript Module template create-module project
 
-This project provides an NPM/NPX starter project template to quickly get up and running to create Jahia Javascript modules
+This project provides an Javascript module starter project template to quickly get up and running to create Jahia Javascript modules
 
 ## Usage
 
